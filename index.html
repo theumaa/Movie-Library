@@ -29,14 +29,89 @@
       <img src="/image/banner.jpg" alt="" />
     </section>
     <section>
-    <div class="mov-lib">
-      <h1>movie library</h1>
-      <p>
-        orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua.
-      </p>
-    </div>
+      <div class="mov-lib">
+        <h1>movie library</h1>
+        <p>
+          orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+      </div>
+    </section>
+    <section class="movie-pg">
+      <div class="movie-page">
+        <h1 class="heading">collect your favourites</h1>
+      </div>
+      <div class="search-bar">
+        <span class="fas fa-search"></span>
+        <input type="search" class="serach-input" placeholder="searching" />
+      </div>
+      <hr class="h" />
+      <div class="movie-container">
+        <div class="first-movie">
+          <img src="/image/batman.jpeg" alt="" class="batman" />
+          <button class="close-btn">&times;</button>
+          <div class="box">
+            <h2 class="heading">Batman Returns</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut…
+            </p>
+          </div>
+        </div>
+        <div class="first-movie">
+          <img src="/image/horse.jpeg" alt="" class="batman" />
+          <button class="close-btn">&times;</button>
+          <div class="box">
+            <h2 class="batman-topic">Batman Returns</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut…
+            </p>
+          </div>
+        </div>
+        <div class="first-movie">
+          <img src="/image/spiderman.jpeg" alt="" class="batman" />
+          <button class="close-btn">&times;</button>
+          <div class="box">
+            <h2 class="batman-topic">Batman Returns</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut…
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="contact-container">
+        <h1>How to reach us</h1>
+        <p class="des">Lorem ipsum dolor sit amet, consetetur.</p>
+        <div class="form">
+          <form action="#" method="post">
+            <div class="name-row">
+              <div class="name-col">
+                <label for="fname" class="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required />
+              </div>
+              <div class="name-col">
+                <label for="lname" class="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required />
+              </div>
+            </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="tel">Telephone:</label>
+            <input type="number" id="tel" name="tel" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </section>
   </body>
 </html>
