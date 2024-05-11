@@ -334,6 +334,12 @@ label {
     height: 500px;
     width: 200px;
   }
+
+  movie-pg search-bar {
+    height: 100px;
+    width: 80px;
+    margin-right: 300px;
+  }
 }
 
 @media (max-width: 850px) {
