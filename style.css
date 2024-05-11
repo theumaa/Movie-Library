@@ -102,7 +102,7 @@ a:hover {
   font-size: 25px;
   color: white;
   float: right;
-  margin-top: 25px;
+  margin-top: 7px;
   margin-right: 40px;
   cursor: pointer;
   display: flex;
@@ -202,6 +202,7 @@ h1 {
 
 span {
   margin-right: -0px;
+  cursor: pointer;
 }
 
 .search-bar input {
@@ -233,11 +234,89 @@ span {
 }
 
 .contact-container .des {
+  margin-top: 20px;
   color: white;
   width: 100%;
-  margin: 10px 0 0 40px;
   font-size: 0.9rem;
   font-weight: 100;
+  margin-left: 40px;
+}
+
+.contact-container-form {
+  margin-top: -40%;
+  color: white;
+}
+
+.row {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  text-transform: capitalize;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.message hr {
+  margin-left: 170px;
+  width: 130px;
+}
+
+#tp,
+#email {
+  height: 40px;
+  width: 500px;
+}
+
+#fname,
+#lname {
+  height: 20px;
+  width: 500px;
+}
+
+label {
+  padding-top: 20px;
+}
+
+.name1 {
+  margin-left: 100px;
+}
+
+.row .name1 {
+  margin-top: 30px;
+  padding-top: 50px;
+  display: block;
+  border-radius: 20px;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  float: inline-end;
+  margin-right: 825px;
+  width: 200px;
+  height: 50px;
+  background-color: #cc9601;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.map img {
+  width: 670px;
+  height: 500px;
+}
+
+.map {
+  float: right;
+  margin-right: 80px;
+  margin-top: -40%;
 }
 
 /* TABLET VIEW */
@@ -297,4 +376,51 @@ span {
   #check:checked ~ ul {
     left: 0;
   }
+}
+
+/* FOOTER */
+.fot-sec {
+  margin-top: 100px;
+  background: #1d1d1d;
+  height: 30%;
+}
+
+.footer-left p {
+  width: 200px;
+  margin-left: 40px;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.footer-right {
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  float: inline-end;
+  margin-right: 100px;
+  margin-top: -80px;
+  gap: 10px;
+  color: white;
+}
+
+.footer-right .footer-dec {
+  font-size: 15px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.footer hr {
+  margin-top: 30px;
+}
+
+.footer-res {
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin-top: 25px;
+  display: flex;
+  color: white;
+  margin-left: 40px;
+  gap: 700px;
 }
